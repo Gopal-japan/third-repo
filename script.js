@@ -1,10 +1,14 @@
-document.getElementById('greetBtn').addEventListener('click', function() {
-    document.getElementById('message').innerText = greetUser();
-  });
-  
-  function greetUser() {
-    return "Hello, welcome to the site!";
+// Function to add two numbers
+function add(a, b) {
+    return a + b;
   }
   
-  module.exports = { greetUser };
+  // Function to subtract two numbers
+  function subtract(a, b) {
+    return a - b;
+  }
+  
+  // Export the functions so that they can be tested
+  module.exports = { add, subtract };
+  
   
