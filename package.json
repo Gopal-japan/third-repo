@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jestprasad"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
